@@ -1,0 +1,42 @@
+### MacOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### LaTeX (Курсова) ###
+# Тимчасові файли компіляції
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# Бібліографія (BibLaTeX/Biber)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Фінальний PDF (за бажанням можна закоментувати, якщо хочеш зберігати в репозиторії)
+*.pdf
+
+### Python (Backend) ###
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+### IDE (VS Code & PyCharm) ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+ignore
