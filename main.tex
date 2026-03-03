@@ -6,8 +6,8 @@
 \usepackage[ukrainian]{babel}
 
 \usepackage[
-    left=30mm,
-    right=15mm,
+    left=25mm,
+    right=10mm,
     top=20mm,
     bottom=20mm
 ]{geometry}
@@ -64,7 +64,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead{}
-\fancyfoot[C]{\thepage}
+\fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
 
 % Лістинги коду (якщо потрібно)
@@ -87,52 +87,51 @@
 
 % Титульна сторінка
 \begin{titlepage}
-    \centering
-    \textbf{МІНІСТЕРСТВО ОСВІТИ І НАУКИ УКРАЇНИ}\\
-    \textbf{ЛЬВІВСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ ІМЕНІ ІВАНА ФРАНКА}\\[0.5cm]
-    \begin{tabular}{c}
-        \underline{Факультет прикладної математики та інформатики}\\[-1ex] 
-        \scriptsize(повне найменування назва факультету)
-    \end{tabular}
-    \begin{tabular}{c}
-        \underline{Кафедра математичного моделювання соціально-економічних процесів}\\[-1ex] 
-        \scriptsize(повна назва кафедри)
-    \end{tabular}
-    
-    \vspace{3cm}
-    
-    {\Large\textbf{КУРСОВА РОБОТА}}\\[0.5cm]
-    {\large\textbf{Дослідження та практична реалізація алгоритмів захисту від 2D-атак в задачах розпізнавання облич}}\\
-    
-    \vfill
-    
-    \begin{flushright}
-        \begin{tabular}{ll}
-            Виконав: студент групи \underline{ПМАМ-22}\\[0.5ex]
-            спеціальності:
-            \begin{tabular}[t]{c}
-                \underline{F4 - Системний аналіз}\\[-1.5ex] 
-                \scriptsize (шифр і назва спеціальності)
-            \end{tabular}\\
-            \begin{tabular}[b]{@{}c@{}c@{}c@{}}
-                 \underline{\makebox[2.3cm]{\raisebox{-0.57ex}{\phantom{Студент}}}}&\underline{\makebox[2cm]{\strut}}&\underline{\makebox[4.3cm]{\raisebox{-0.57ex}{Корицький А. О.}}} \\[-1.1ex]
-                \scriptsize\phantom{text}&\scriptsize(підпис)&\scriptsize(прізвище та ініціали)
-            \end{tabular}\\
-            \begin{tabular}[b]{@{}c@{}c@{}c@{}}
-                {\makebox[2.3cm]{\raisebox{-0.8ex}{Керівник}}}&\underline{\makebox[2cm]{\strut}}&\underline{\makebox[4.3cm]{\raisebox{-0.57ex}{Добуляк Л. П.}}} \\[-1.1ex]
-                &\scriptsize(підпис)&\scriptsize(прізвище та ініціали)
-            \end{tabular}\\
-            \begin{tabular}[b]{@{}c@{}c@{}c@{}}
-                {\makebox[2.3cm]{\raisebox{-0.8ex}{Рецинзент}}}&\underline{\makebox[2cm]{\strut}}&\underline{\makebox[4.3cm]{\raisebox{-0.57ex}{\phantom{РД}}}} \\[-1.1ex]
-                &\scriptsize(підпис)&\scriptsize(прізвище та ініціали)
-            \end{tabular}
-        \end{tabular}
-    \end{flushright}
-    
-    \vfill
-    
-    Львів -- 2026
+	\centering
+	\textbf{МІНІСТЕРСТВО ОСВІТИ І НАУКИ УКРАЇНИ}\\
+	\textbf{ЛЬВІВСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ ІМЕНІ ІВАНА ФРАНКА}\\[0.5cm]
+	\begin{tabular}{c}
+		{Факультет прикладної математики та інформатики} \\
+		{Кафедра математичного моделювання соціально-економічних процесів}
+	\end{tabular}
+
+	\vspace{3cm}
+
+	{\Large\textbf{КУРСОВА РОБОТА}}\\[0.5cm]
+	{\large\textbf{Дослідження та практична реалізація алгоритмів захисту від 2D-атак в задачах розпізнавання облич}}\\
+
+	\vfill
+
+	\begin{flushright}
+		\begin{tabular}{ll}
+			Виконав: студент групи \underline{ПМАМ-12}                                                                                                                      \\[0.5ex]
+			спеціальності:
+			\begin{tabular}[t]{c}
+				\underline{F4 - Системний аналіз} \\[-1.5ex]
+				\scriptsize (шифр і назва спеціальності)
+			\end{tabular}                                                                                                                     \\
+			\begin{tabular}[b]{@{}c@{}c@{}c@{}}
+				{\makebox[2.3cm]{\raisebox{-0.57ex}{\phantom{Студент}}}} & \underline{\makebox[2cm]{\strut}} & \underline{\makebox[4.3cm]{\raisebox{-0.57ex}{Корицький А. О.}}} \\[-1.1ex]
+				\scriptsize\phantom{text}                                & \scriptsize(підпис)               & \scriptsize(прізвище та ініціали)
+			\end{tabular} \\
+			\begin{tabular}[b]{@{}c@{}c@{}c@{}}
+				{\makebox[2.3cm]{\raisebox{-0.8ex}{Керівник}}} & \underline{\makebox[2cm]{\strut}} & \underline{\makebox[4.3cm]{\raisebox{-0.57ex}{Добуляк Л. П.}}} \\[-1.1ex]
+				                                               & \scriptsize(підпис)               & \scriptsize(прізвище та ініціали)
+			\end{tabular}
+		\end{tabular}
+	\end{flushright}
+
+	\vfill
+
+	Львів -- 2026
 \end{titlepage}
+\setcounter{page}{2}
+
+% Зміст
+\pagestyle{empty}
+\tableofcontents
+\newpage
+\pagestyle{fancy}
 
 
 \end{document}
